@@ -1,0 +1,68 @@
+/* Table.css */
+
+.data-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:transparent;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  /* Increase width and height */
+  width: 80%; /* Adjust width as needed */
+  min-height: 700px; /* Adjust min-height as needed */
+
+  /* Add margin and adjust padding for better spacing */
+  margin: 2rem auto; /* Auto margin centers the container horizontally */
+  padding: 3rem; /* Increase padding for more space inside */
+}
+
+.data-controls {
+  display: flex;
+  justify-content: space-between;
+  width: 80%; /* Adjust to match table width */
+  margin-bottom: 1rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.dropdown {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.data-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 1rem; /* Add margin to separate controls and table */
+  font-family: Arial, sans-serif;
+  background-color: #ddd;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+th {
+  background-color: #d40606; /* Red background for headers */
+  color: white;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #ebeef0;
+}

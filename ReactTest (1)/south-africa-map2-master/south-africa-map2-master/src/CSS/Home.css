@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&display=swap');
+
+  body {
+    font-family: 'Kanit', sans-serif; /* Apply Kanit font to the entire page */
+    background-image: url('/home/ST10117284/ReactTest/south-africa-map2-master/south-africa-map2-master/src/images/R.jpg');
+    background-size: cover;
+}
+
+
+.home-container {
+  text-align: center;
+  font-family: 'Kanit', sans-serif; /* Apply Kanit font to the entire page */
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.logo-container {
+  max-width: 60%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.logo-grey {
+  max-width: 70%;
+  height: auto;
+  margin-left: 20px;
+}
+
+.intro-text {
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
+  max-width: 900px;
+  cursor: pointer;
+  font-size: 1.3rem;
+  margin-top: 20px;
+  ;
+}
+
+.follow-us {
+  color: red;
+  cursor: pointer;
+  margin-top: 150px;
+  font-family: monospace;
+}
+
+
+.carousel-section h2 {
+  color: white; /* Set the text color to white */
+  margin-top: 90px;
+}
+
+
+.carousel-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Adjust margin bottom as needed */
+}
+
+.carousel-content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  text-align: center; /* Center text */
+}
+
+.carousel-title {
+  font-size: 1.5rem; /* Adjust font size */
+  margin-bottom: 10px;
+  color: red;
+}
+
+.carousel-description {
+  font-size: 1.3rem; /* Adjust font size */
+  margin-bottom: 15px;
+  color: white;
+}
+
+.carousel-button {
+  background-color: #ff0000; /* Example button style */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-button:hover {
+  background-color: #000000; /* Example hover color */
+}
+
+.carousel-image {
+  max-width: 40%; /* Adjust maximum width of the image */
+  max-height: 200px; /* Adjust maximum height of the image */
+  display: block; /* Ensures the image behaves as expected */
+  margin-right: 80px; /* Automatically adjust margin to move image to the left */
+  margin-left: auto; /* Automatically adjust margin to move image to the left */
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-image {
+    max-width: 80%; /* Adjust for smaller screens */
+  }
+}
+
+.tree-logos-section h2
+{
+  color: white;
+}
+
+.tree-logos-section {
+  padding: 20px 0;
+  background-color:transparent; /* Example background color */
+  background-image: inherit; /* Inherit background image from body */
+  background-size: cover; /* Ensure the background image covers the entire section */
+  background-position: center; /* Center the background image */
+}
+
+.tree-logos-container {
+  display: flex;
+  justify-content: space-around; /* Adjust as needed */
+  align-items: center;
+}
+
+.tree-logo-item {
+  text-align: center; /* Center content */
+  margin: 0 10px; /* Adjust margin */
+  transition: transform 0.3s ease; /* Smooth transition for transform property */
+}
+
+.tree-logo-item:hover {
+  transform: scale(1.1); /* Scale up the item on hover */
+}
+
+.tree-logo {
+  width: 100px; /* Adjust image width */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px; /* Adjust spacing */
+}
+
+.tree-logo-title {
+  font-size: 1.5rem; /* Adjust font size */
+  margin-bottom: 5px; /* Adjust spacing */
+  color: red;
+}
+
+.tree-logo-description {
+  font-size: 1.2rem; /* Adjust font size */
+  color: #ffffff; /* Example text color */
+}
+
+ .video-section h2 {
+  color: white;
+  margin-top: 50px;
+ }
+
+ .video-container {
+  margin-bottom: 40px;
+ }

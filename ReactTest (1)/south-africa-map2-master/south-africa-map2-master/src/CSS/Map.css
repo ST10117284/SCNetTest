@@ -1,0 +1,64 @@
+
+body {
+  font-family: 'Kanit', sans-serif; /* Apply Kanit font to the entire page */
+  background-image: url('/home/ST10117284/ReactTest/south-africa-map2-master/south-africa-map2-master/src/images/R.jpg');
+  background-size: cover;
+}
+
+
+h1{text-align: center;
+   font-family: 'IBM Plex Sans', sans-serif;
+   font-size: 2rem;
+   font-weight: bold;
+   color: #cc171e;
+   text-align: center;
+   padding: 1rem;
+   margin: 1rem 0;
+       
+      
+}
+
+h3{text-align: center;
+   text-decoration: underline;
+   padding-bottom: 0%;
+   margin-bottom: 0%;
+}
+
+p{color: #CC171e;
+  margin: 0%;
+  padding: 0%;
+}
+
+
+.map {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 20px; /* Adjust as needed */
+   margin-bottom: 20px;
+ }
+ 
+ .controls {
+   margin-bottom: 20px; /* Add spacing below the controls */
+ }
+ 
+ button {
+   background-color: red; /* Make the button red */
+   color: white; /* Make the text inside the button white */
+   font-size: 16px; /* Increase button font size */
+   padding: 10px 20px; /* Add padding inside the button */
+ }
+ 
+ select {
+   font-size: 16px; /* Increase dropdown font size */
+   padding: 10px; /* Add padding inside the dropdown */
+   margin-right: 10px; /* Add spacing between dropdown and button */
+ }
+ 
+ .map-container {
+   width: 100%; /* Ensure the map container spans full width */
+   max-width: 1200px; /* Limit maximum width of the map */
+   height: 500px; /* Adjust height as needed */
+   margin: 0 auto; /* Center the map container */
+ }
